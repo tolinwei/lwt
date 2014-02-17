@@ -14,11 +14,7 @@
 
 #### Data structures:
 
-<<<<<<< HEAD
-1. **_TCB_STATE_** denotes the state of a thread control block (TCB), may be *_TCB_ACTIVE*, *_TCB_DEAD*, or *_TCB_BLOCKED* if it's joining other thread.
-=======
 1. **_TCB_STATE_** denotes the state of a thread control block (TCB), may be __TCB_ACTIVE, __TCB_DEAD, or __TCB_BLOCKED if it's joining other thread.
->>>>>>> a8773f07db71c775c17c3c3fb30dfc0e57e74ed1
 
 2. __lwt_t__ The pointer to a TCB that contains some important information of specific thread:
 	* thread id
