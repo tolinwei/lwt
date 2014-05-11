@@ -1,6 +1,6 @@
 ##lwt 
 
-A light-weight user level non-preemptive multi-threading library for GNU environment
+Light-weight user level non-preemptive multi-threading library for GNU environment
 
 ###Features
 
