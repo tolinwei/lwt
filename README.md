@@ -9,7 +9,7 @@ Light-weight user level non-preemptive multi-threading library for GNU environme
 - Inspired by Google's Go programming language, lwt provides similar mechanism of [Go's channel](http://golang.org/doc/effective_go.html#channels) for communicating between threads
 - Buffered channels are supported for asynchronous communication, and channels can be sent through channel for bidirectional message passing
 
-##APIs
+#APIs
 
 ##thread-related data structures
 - `struct lwt_tcb {}` defines a TCB, which is short for thread control block, similar to PCB (process control block). It stores necessary information of a thread, when performing a thread switching, the data of current thread will be saved into corresponding TCB of current thread, and data of next thread will be restored from the TCB of next thread, if exists. `*lwt_t` is a pointer to `struct lwt_tcb {}` to provide some easier operations
