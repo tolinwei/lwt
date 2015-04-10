@@ -44,9 +44,10 @@ Light-weight user level non-preemptive multi-threading library for GNU environme
 - Then you'll get a executable file named `main`, run it by `$./main` to get some print out overhead measured by a inline assembly instruction [rdtsc](http://en.wikipedia.org/wiki/Time_Stamp_Counter)
 - Tested through the compiler `gcc (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3`
 
-##Author
+##Authors
 
-**[Wei Lin](http://www.linkedin.com/in/ivanlw/)**
+[Wei Lin](http://www.linkedin.com/in/tolinwei/)
+[Jianfei He](https://www.linkedin.com/in/jianfeihe)
 
 
 
