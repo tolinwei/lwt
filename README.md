@@ -47,6 +47,7 @@ Light-weight user level non-preemptive multi-threading library for GNU environme
 ##Authors
 
 [Wei Lin](http://www.linkedin.com/in/tolinwei/)
+
 [Jianfei He](https://www.linkedin.com/in/jianfeihe)
 
 
